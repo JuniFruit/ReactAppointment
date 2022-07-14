@@ -21,6 +21,7 @@ export const ContactsPage = ({contacts, addContact}) => {
     } else {
       setDuplicate(false)
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [name])
 
   const handleSubmit = (e) => {
